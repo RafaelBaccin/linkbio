@@ -62,6 +62,10 @@ body {
   flex-wrap: wrap;
 }
 
+.main_button_item, .main_text_item, .texto-sobremim, button {
+  border: 1px white solid;
+}
+
 .flex_column_center {
   display: flex;
   flex-direction: column;
@@ -240,12 +244,17 @@ main {
   cursor: pointer;
 }
 
+.importante {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
 .texto-sobremim {
   
   align-items: center;
   color: var(--button_text_color);
   background-color: var(--menu_main_texts_color);
-  width: 85vw;
+  width: 85vw;s
   margin-top: 1em;
   padding: 1em;
   border-radius: 0.7em;
