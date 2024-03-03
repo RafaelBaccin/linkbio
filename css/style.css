@@ -245,12 +245,13 @@ main {
   align-items: center;
   color: var(--button_text_color);
   background-color: var(--menu_main_texts_color);
-  width: 41em;
+  width: 85vw;
   margin-top: 1em;
   padding: 1em;
   border-radius: 0.7em;
   min-height: 3.7em;
   text-align: start;
+
 }
 
 /* Footer Codes */
@@ -260,6 +261,10 @@ main {
   background: var(--footer_background_color);
   padding: 1em;
   margin-top: 1.5em;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position:relative;
 }
 
 .footer_a_item {
