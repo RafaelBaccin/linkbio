@@ -1,39 +1,39 @@
-/* From the :root element you can easily change the colors of the design, its size and so on. */
+
 :root {
 
-  /* You can change the font family in the whole design here. (You need to add the font family to the codes.) */
+  
   --font_family: 'Inter', sans-serif;
 
-  /* You can change the font size here, is proportional to all texts. */
+  
   --font_size: 16px;
 
   /* You can change the background color by typing the color code. (If you do not enter a background-image image, the background-color will be active.) */
-  --background_color: #120536;
+  --background_color: #222122;
   --background_image: url("../img/wallpaper.jpg");
 
   /* You can change the frame thickness and color of the picture by typing the number of pixels and the color code. */
-  --image_border_color: #ffffff;
-  --image_border_px: 5px;
+  --image_border_color: #e0e0e0;
+  --image_border_px: 2px;
 
   /* You can change the width and size of the picture by typing the number of pixels. */
   --image_width: 140px;
   --image_height: 140px;
 
   /* You can change the colors of the title and description section by typing the color codes. */
-  --title_color: #fff;
-  --description_color: #f2efef;
+  --title_color: #f5f5f5;
+  --description_color: #f2efefc6;
 
   /* You can change the colors of social media icons by changing the color code. */
-  --svg_color: #ffffff;
+  --svg_color: #f5f5f5;
 
   /* You can change the background, text color and active color of the menu by changing the color codes. */
-  --menu_background_color: #000000;
-  --menu_text_color: #fff;
+  --menu_background_color: #181818;
+  --menu_text_color: #dfdfdf;
   --menu_active_text_color: #bceeff;
   --menu_main_texts_color: rgb(21, 21, 21);
 
   /* You can change the button's background, text color and active color by changing the color codes. */
-  --button_background_color: #3a3a3a;
+  --button_background_color: #111111;
   --button_text_color: #fff;
   --button_text_hover_color: #6600ff;
 
@@ -166,8 +166,12 @@ body {
   padding: 0.5em;
   border-radius: 0.3em;
   cursor: pointer;
-  transition: 0.10s ease;
+  transition: 0.20s ease;
   font-size: 1.1em;
+}
+
+.header_nav_menu_item:hover {
+  transform: scale(1.1);
 }
 
 .header_nav_menu_item + .header_nav_menu_item {
@@ -275,6 +279,7 @@ main {
   right: 0;
   position:relative;
 }
+
 
 .footer_a_item {
   color: var(--footer_link_text_color);
