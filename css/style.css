@@ -27,25 +27,25 @@
   --svg_color: #f5f5f5;
 
   /* You can change the background, text color and active color of the menu by changing the color codes. */
-  --menu_background_color: #181818;
+  --menu_background_color: #171717fd;
   --menu_text_color: #dfdfdf;
-  --menu_active_text_color: #bceeff;
+  --menu_active_text_color: #d7f5ff;
   --menu_main_texts_color: rgb(21, 21, 21);
 
   /* You can change the button's background, text color and active color by changing the color codes. */
-  --button_background_color: #111111;
+  --button_background_color: #0e0e0e;
   --button_text_color: #fff;
   --button_text_hover_color: #6600ff;
 
   /* You can change the background, text color and active color of the text field by changing the color codes. */
-  --textarea_background_color: #0e0e0e;
-  --textarea_text_color: #fff;
+  --textarea_background_color: #040404;
+  --textarea_text_color: rgb(241, 241, 241);
   --textarea_link_text_color: #0a02ff;
 
   /* You can change the background, text color and active color of the footer area by changing the color codes. */
-  --footer_background_color: #030207;
-  --footer_text_color: #fff;
-  --footer_link_text_color: #ffffff;
+  --footer_background_color: #02000afb;
+  --footer_text_color: rgb(247, 247, 247);
+  --footer_link_text_color: #f0f0f0;
 }
 
 /* Basic Codes */
@@ -145,8 +145,7 @@ body {
   color: var(--menu_active_text_color);
 }
 
-#header_nav_menu_item_2,
-#header_nav_menu_item_3 {
+#header_nav_menu_item_2 {
   color: var(--menu_text_color);
 }
 
